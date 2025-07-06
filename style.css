@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+pre {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
