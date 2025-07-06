@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSV Cleaner</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <h1>CSV Cleaner</h1>
+  <input type="file" id="csvInput" accept=".csv" />
+  <div>
+    <label><input type="checkbox" id="trimSpaces" /> Trim whitespace</label>
+    <label><input type="checkbox" id="removeDuplicates" /> Remove duplicates</label>
+  </div>
+  <button onclick="cleanCSV()">Clean CSV</button>
+  <button onclick="downloadCleaned()">Download Cleaned CSV</button>
+  <pre id="output"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
